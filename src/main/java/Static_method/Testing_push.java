@@ -39,4 +39,11 @@ public void test2(int i ,int j) {
 	
 }
 
+
+public Testing_push() {
+	
+	System.out.println("Helloooooo");
+
+}
+
 }
