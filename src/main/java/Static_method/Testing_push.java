@@ -4,10 +4,12 @@ public class Testing_push {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Testing_push obj = new Testing_push();
+		Testing_push obj = new Testing_push(20, 30);
 		obj.test();
 		obj.test1(20);
 		obj.test2(20, 30);
+		int x =20;
+		int y = 30;
 		
 	}
 	
@@ -40,9 +42,10 @@ public void test2(int i ,int j) {
 }
 
 
-public Testing_push() {
+public Testing_push(int x, int y) {
 	
-	System.out.println("Helloooooo");
+	int z = x+y;
+	System.out.println("Helloooooo" +(x+y));
 
 }
 
