@@ -8,7 +8,6 @@ public class Testing_push {
 		obj.test();
 		obj.test1(20);
 		obj.test2(20, 30);
-		int x =20;
 		int y = 30;
 		
 	}
